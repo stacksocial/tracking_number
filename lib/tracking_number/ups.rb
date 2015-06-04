@@ -89,4 +89,10 @@ module TrackingNumber
       end
     end
   end
+
+  class UpsMailInnovations < USPS91
+    def carrier
+      :ups
+    end
+  end
 end
